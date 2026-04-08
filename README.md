@@ -1,7 +1,4 @@
-# Uncertainty-Aware Drone Intrusion Detection in
-Federated Learning: Leakage-Safe Splits,
-Calibration, and Selective Alerting under Non-IID
-Feature Skew
+# Uncertainty-Aware Drone Intrusion Detection in Federated Learning: Leakage-Safe Splits, Calibration, and Selective Alerting under Non-IID Feature Skew
 Uncertainty-Aware Drone IDS using Calibrated Federated Learning. Features leakage-safe chronological splitting, duplicate hashing, and multi-algorithm optimization for robust, non-IID intrusion detection.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tankim-prio/Uncertainty-Aware-Drone-IDS/blob/main/code/drone_ids_experiments.ipynb)
