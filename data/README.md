@@ -18,5 +18,5 @@ Due to GitHub's file size limits, `updated_drone_ids_dataset.csv` is securely ho
 
 ### How to use it:
 1. Download the file using the link above.
-2. Place `updated_drone_ids_dataset.csv` directly into this `01_Dataset/` directory.
-3. The main Jupyter Notebook in `03_Codebase/` is pre-configured to load the data automatically from this location!
+2. Place `updated_drone_ids_dataset.csv` directly into this `data/` directory.
+3. The main Jupyter Notebook in `code/` is pre-configured to load the data automatically from this location!
