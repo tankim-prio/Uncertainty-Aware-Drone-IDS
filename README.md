@@ -10,7 +10,7 @@ Uncertainty-Aware Drone IDS using Calibrated Federated Learning. Features leakag
 
 Welcome to the official repository for research on securing decentralized drone swarms. 
 
-Unmanned aerial swarms require continuous network connectivity to maintain cooperative flight behaviors safely. Hostile interference triggers cascading failures across these missions. However, centralizing their sensitive telemetry data for intrusion detection introduces severe privacy risks and bandwidth bottlenecks. This project bridges the gap between theoretical machine learning and deployable cybersecurity by engineering an **Uncertainty-Aware Federated Learning Intrusion Detection System (IDS)** that trains collaboratively across drones—without ever sharing raw data.
+Unmanned aerial swarms require continuous network connectivity to maintain cooperative flight behaviors safely. Hostile interference triggers cascading failures across these missions. However, centralizing their sensitive telemetry data for intrusion detection introduces severe privacy risks and bandwidth bottlenecks. This project bridges the gap between theoretical machine learning and deployable cybersecurity by engineering an **Uncertainty-Aware Federated Learning Intrusion Detection System (IDS)** that trains collaboratively across drones without ever sharing raw data.
 
 ---
 
