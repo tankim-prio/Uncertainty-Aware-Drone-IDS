@@ -27,7 +27,7 @@ This project leverages state-of-the-art frameworks to achieve federated converge
 
 ---
 
-## 📖 Abstract
+## Abstract
 > Drone swarms used in critical infrastructure require intrusion detection without centralizing telemetry. Prior federated learning (FL)-based intrusion detection system (IDS) studies often report strong discrimination under evaluation leakage and ignore probability calibration, producing overconfident alerts under non-IID feature skew. We propose an uncertainty-aware drone intrusion detection system trained with federated learning and evaluated using leakage-safe chronological holdout splits, cross-split duplicate hashing, and feature hardening. We construct a 10-client non-IID feature-skew setting and train FedAvg, FedProx, FedNova, and FedDyn; operating points are selected via Youden's J statistic. We apply post-hoc temperature scaling and measure predictive performance using accuracy and Macro F1, and reliability using Expected Calibration Error (ECE), alongside SHAP for behavioral inspection. On the ISOT Drone Intrusion dataset, a centralized Random Forest provides an upper bound of Macro F1 = 0.9896. Under severe skew, FedAvg attains 98.60% accuracy and Macro F1 = 0.9844. Temperature scaling reduces ECE to 0.0026675, enabling selective alerting that defers low-confidence predictions to limit false alarms. Furthermore, explainability analyses reveal that while centralized models rely on rigid spatial identifiers such as ports, the federated architecture adapts to skew by shifting its defensive logic toward structural protocol anomalies such as DNS. Calibrated FL can deliver near-centralized UAV intrusion detection while supporting reliable human-in-the-loop deferral.
 
 ---
